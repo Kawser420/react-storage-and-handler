@@ -6,7 +6,7 @@ const addToDb = id => {
         localStorage.setItem(id, newQuantity);
     }
     else {
-        localStorage.setItem(id, 1)
+        localStorage.setItem(id, 1);
     }
 }
 
